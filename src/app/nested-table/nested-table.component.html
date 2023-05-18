@@ -1,0 +1,7 @@
+<app-table  [tableData] = "users"
+            [tableColumns] = "columns"
+            [actionColumn] = "actionColumn"
+            (leftButtonEmitter) = "updateAppointment($event)"
+            (rightButtonEmitter) = "deleteAppointment($event)"
+            class = "detail-table">
+</app-table>
